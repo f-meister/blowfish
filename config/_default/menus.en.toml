@@ -67,3 +67,37 @@
 #   name = "Categories"
 #   pageRef = "categories"
 #   weight = 20
+
+# Main Navbar
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Portfolio"
+  pageRef = "/portfolio"
+  weight = 20
+
+[[main]]
+  name = "Blog"
+  pageRef = "/blog"
+  weight = 30
+
+[[main]]
+  name = "tastyfab"
+  pageRef = "/tastyfab"
+  weight = 40
+
+# Sub-Categories for tastyfab (Dropdown)
+[[main]]
+  name = "Guilty Gear"
+  parent = "tastyfab"
+  pageRef = "/tastyfab/tags/guilty-gear"
+  weight = 1
+
+[[main]]
+  name = "JRPGs"
+  parent = "tastyfab"
+  pageRef = "/tastyfab/tags/jrpg"
+  weight = 2
